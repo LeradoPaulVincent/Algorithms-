@@ -2,7 +2,7 @@ function countingSort (arr: number[]) {
 //A
     let highestNumber = Math.max(...arr); //k
     let indexArray = new Array(highestNumber + 1).fill(0); //c
-    let finalArray = new Array(arr.length); //B
+    let finalArray = new Array(arr.length).fill(0); //B
 
     for(var i = 0; i < highestNumber; i++){ 
         indexArray[i] = 0
